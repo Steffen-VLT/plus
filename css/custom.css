@@ -1,0 +1,55 @@
+/* Add here all your css styles (customizations) */
+div.alternate, section.alternate {
+    background-color: rgba(231,240,246, 0.5);
+}
+
+.custom_color_light_blue {
+    background-color: #E7F0F6 !important;
+}
+.custom_color_semi_light_blue {
+    background-color: #B8D1E5 !important;
+}
+.custom_color_dark_blue {
+    background-color: #041422 !important;
+}
+.custom_color_semi_dark_blue {
+    background-color: #072843 !important;
+}
+.custom_color_blue {
+    background-color: #1265A8 !important;
+}
+
+
+
+/*------------------------------------
+  User page
+------------------------------------*/
+.nav-tabs .active {
+    color: #fff !important;
+    background-color: #1265A8 !important;
+}
+
+.nav-tabs {
+    font-size: 18px;
+}
+
+
+/*------------------------------------
+  Multi select
+------------------------------------*/
+.btn-light {
+    color: #212529;
+    border-color: #ced4da !important;
+    background-color: #fff !important;
+}
+
+/*------------------------------------
+  Homepage map
+------------------------------------*/
+.homepage-map {
+    background-image: url(/assets/img/maps/UK.jpg);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
