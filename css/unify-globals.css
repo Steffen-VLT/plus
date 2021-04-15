@@ -3961,7 +3961,7 @@
   Typography Font Family
 ------------------------------------*/
 .g-font-secondary {
-  font-family: Ubuntu, "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu", "Roboto Slab", Helvetica, Arial, sans-serif;
 }
 
 .g-font-code {
