@@ -19,13 +19,13 @@ body {
 }
 
 a {
-  color: #72c02c;
+  color: #1265a8;
   outline: none;
 }
 
 a:focus,
 a:hover {
-  color: #66ab27;
+  color: #105791;
 }
 
 .nav-link {
@@ -67,20 +67,20 @@ h1, h2, h3, h4, h5, h6 {
 ------------------------------------*/
 ::-moz-selection {
   color: #fff;
-  background-color: #72c02c;
+  background-color: #1265a8;
 }
 
 ::selection {
   color: #fff;
-  background-color: #72c02c;
+  background-color: #1265a8;
 }
 
 .g-bg-primary ::-moz-selection {
-  color: #72c02c;
+  color: #1265a8;
   background-color: #fff;
 }
 
 .g-bg-primary ::selection {
-  color: #72c02c;
+  color: #1265a8;
   background-color: #fff;
 }
