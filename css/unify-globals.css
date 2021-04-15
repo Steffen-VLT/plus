@@ -253,14 +253,14 @@
 /* Secondary Gradient v1 */
 .g-bg-secondary-gradient-v1,
 .g-bg-secondary-gradient-v1--after::after {
-  background-image: linear-gradient(to top, rgba(250, 250, 250, 0) 0%, #fafafa 100%);
+  background-image: linear-gradient(to top, rgba(247, 247, 247, 0) 0%, #f7f7f7 100%);
   background-repeat: repeat-x;
 }
 
 /* Secondary Gradient v2 */
 .g-bg-secondary-gradient-v2,
 .g-bg-secondary-gradient-v2--after::after {
-  background-image: linear-gradient(to top, #fafafa 0%, rgba(250, 250, 250, 0) 100%);
+  background-image: linear-gradient(to top, #f7f7f7 0%, rgba(247, 247, 247, 0) 100%);
   background-repeat: repeat-x;
 }
 
@@ -324,7 +324,7 @@
 
 /* Main Secondary */
 .g-bg-secondary {
-  background-color: #fafafa !important;
+  background-color: #f7f7f7 !important;
 }
 
 /* Primary Colors */
@@ -844,23 +844,23 @@
 
 /* Color Blue */
 .g-bg-blue {
-  background-color: #3398dc !important;
+  background-color: #072843 !important;
 }
 
 .g-bg-blue-opacity-0_1 {
-  background-color: rgba(51, 152, 220, 0.1) !important;
+  background-color: rgba(7, 40, 67, 0.1) !important;
 }
 
 .g-bg-blue-opacity-0_7 {
-  background-color: rgba(51, 152, 220, 0.7) !important;
+  background-color: rgba(7, 40, 67, 0.7) !important;
 }
 
 .g-bg-blue-opacity-0_9 {
-  background-color: rgba(51, 152, 220, 0.9) !important;
+  background-color: rgba(7, 40, 67, 0.9) !important;
 }
 
 .g-bg-blue--hover:hover {
-  background-color: #3398dc !important;
+  background-color: #072843 !important;
 }
 
 /* Color Light Blue */
@@ -882,11 +882,11 @@
 
 /* Color Dark Blue */
 .g-bg-darkblue {
-  background-color: #009 !important;
+  background-color: #041422 !important;
 }
 
 .g-bg-darkblue-opacity-0_1 {
-  background-color: rgba(0, 0, 153, 0.1) !important;
+  background-color: rgba(4, 20, 34, 0.1) !important;
 }
 
 /* Color Indigo */
@@ -1036,19 +1036,19 @@
 
 /* Color Yellow */
 .g-bg-yellow {
-  background-color: #ebc71d !important;
+  background-color: #F7CD46 !important;
 }
 
 .g-bg-yellow-opacity-0_1 {
-  background-color: rgba(235, 199, 29, 0.1) !important;
+  background-color: rgba(247, 205, 70, 0.1) !important;
 }
 
 .g-bg-yellow-opacity-0_7 {
-  background: rgba(235, 199, 29, 0.7) !important;
+  background: rgba(247, 205, 70, 0.7) !important;
 }
 
 .g-bg-yellow--hover:hover {
-  background-color: #ebc71d !important;
+  background-color: #F7CD46 !important;
 }
 
 /* Color Aqua */
@@ -1499,27 +1499,27 @@
 }
 
 .g-fill-main {
-  fill: #555 !important;
+  fill: #333 !important;
 }
 
 .g-fill-main path,
 .g-fill-main polygon {
-  fill: #555 !important;
+  fill: #333 !important;
 }
 
 .g-fill-main--opened-menu:not(.collapsed) path,
 .g-fill-main--opened-menu:not(.collapsed) polygon {
-  fill: #555 !important;
+  fill: #333 !important;
 }
 
 *:not(.collapsed) > .g-fill-main--parent-opened-menu path,
 *:not(.collapsed) > .g-fill-main--parent-opened-menu polygon {
-  fill: #555 !important;
+  fill: #333 !important;
 }
 
 .g-fill-main--hover:hover path,
 .g-fill-main--hover:hover polygon {
-  fill: #555 !important;
+  fill: #333 !important;
 }
 
 *:hover > * > .g-fill-main--hover-parent svg path,
@@ -2486,11 +2486,11 @@
 
 /* Main Colors */
 .g-brd-main {
-  border-color: #555 !important;
+  border-color: #333 !important;
 }
 
 .g-brd-main--hover:hover {
-  border-color: #555 !important;
+  border-color: #333 !important;
 }
 
 /* Black Colors */
@@ -2774,19 +2774,19 @@
 
 /* Color Blue */
 .g-brd-blue {
-  border-color: #3398dc !important;
+  border-color: #072843 !important;
 }
 
 .g-brd-blue--hover:hover, .g-brd-blue--active.active {
-  border-color: #3398dc !important;
+  border-color: #072843 !important;
 }
 
 *:hover > .g-brd-blue--hover-parent {
-  border-color: #3398dc !important;
+  border-color: #072843 !important;
 }
 
 .g-brd-blue-opacity-0_1 {
-  border-color: rgba(51, 152, 220, 0.1) !important;
+  border-color: rgba(7, 40, 67, 0.1) !important;
 }
 
 /* Color Light Blue */
@@ -2816,15 +2816,15 @@
 
 /* Color Dark Blue */
 .g-brd-darkblue {
-  border-color: #009 !important;
+  border-color: #041422 !important;
 }
 
 .g-brd-darkblue--hover:hover, .g-brd-darkblue--active.active {
-  border-color: #009 !important;
+  border-color: #041422 !important;
 }
 
 *:hover > .g-brd-darkblue--hover-parent {
-  border-color: #009 !important;
+  border-color: #041422 !important;
 }
 
 /* Color Indigo */
@@ -2950,15 +2950,15 @@
 
 /* Color Yellow */
 .g-brd-yellow {
-  border-color: #ebc71d !important;
+  border-color: #F7CD46 !important;
 }
 
 .g-brd-yellow--hover:hover, .g-brd-yellow--active.active {
-  border-color: #ebc71d !important;
+  border-color: #F7CD46 !important;
 }
 
 *:hover > .g-brd-yellow--hover-parent {
-  border-color: #ebc71d !important;
+  border-color: #F7CD46 !important;
 }
 
 /* Color Aqua */
@@ -3452,19 +3452,19 @@
 
 /* Color Blue */
 .g-brd-blue-top {
-  border-top-color: #3398dc !important;
+  border-top-color: #072843 !important;
 }
 
 .g-brd-blue-bottom {
-  border-bottom-color: #3398dc !important;
+  border-bottom-color: #072843 !important;
 }
 
 .g-brd-blue-left {
-  border-left-color: #3398dc !important;
+  border-left-color: #072843 !important;
 }
 
 .g-brd-blue-right {
-  border-right-color: #3398dc !important;
+  border-right-color: #072843 !important;
 }
 
 /* Color Light Blue */
@@ -3502,19 +3502,19 @@
 
 /* Color Dark Blue */
 .g-brd-darkblue-top {
-  border-top-color: #009 !important;
+  border-top-color: #041422 !important;
 }
 
 .g-brd-darkblue-bottom {
-  border-bottom-color: #009 !important;
+  border-bottom-color: #041422 !important;
 }
 
 .g-brd-darkblue-left {
-  border-left-color: #009 !important;
+  border-left-color: #041422 !important;
 }
 
 .g-brd-darkblue-right {
-  border-right-color: #009 !important;
+  border-right-color: #041422 !important;
 }
 
 /* Color Indigo */
@@ -3672,19 +3672,19 @@
 
 /* Color Yellow */
 .g-brd-yellow-top {
-  border-top-color: #ebc71d !important;
+  border-top-color: #F7CD46 !important;
 }
 
 .g-brd-yellow-bottom {
-  border-bottom-color: #ebc71d !important;
+  border-bottom-color: #F7CD46 !important;
 }
 
 .g-brd-yellow-left {
-  border-left-color: #ebc71d !important;
+  border-left-color: #F7CD46 !important;
 }
 
 .g-brd-yellow-right {
-  border-right-color: #ebc71d !important;
+  border-right-color: #F7CD46 !important;
 }
 
 /* Color Aqua */
@@ -3961,7 +3961,7 @@
   Typography Font Family
 ------------------------------------*/
 .g-font-secondary {
-  font-family: "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-family: Ubuntu, "Roboto Slab", Helvetica, Arial, sans-serif;
 }
 
 .g-font-code {
@@ -6357,11 +6357,11 @@ svg.g-transition--linear polygon {
 
 /* Main Colors */
 .g-color-main {
-  color: #555 !important;
+  color: #333 !important;
 }
 
 .g-color-main--hover:hover {
-  color: #555 !important;
+  color: #333 !important;
 }
 
 /* Primary Colors */
@@ -6399,15 +6399,15 @@ svg.g-transition--linear polygon {
 
 /* Secondary Colors */
 .g-color-secondary {
-  color: #e74b3c !important;
+  color: #333 !important;
 }
 
 .u-block-hover:hover .g-color-secondary--hover, .g-color-secondary--hover:hover {
-  color: #e74b3c !important;
+  color: #333 !important;
 }
 
 .g-parent:hover .g-color-secondary--parent-hover {
-  color: #e74b3c !important;
+  color: #333 !important;
 }
 
 /* Black Colors */
@@ -6642,15 +6642,15 @@ svg.g-transition--linear polygon {
 
 /* Color Blue */
 .g-color-blue {
-  color: #3398dc !important;
+  color: #072843 !important;
 }
 
 .g-color-blue--hover:hover {
-  color: #3398dc !important;
+  color: #072843 !important;
 }
 
 .g-color-blue-dark-v1 {
-  color: #175a88 !important;
+  color: black !important;
 }
 
 /* Color Light Blue */
@@ -6672,11 +6672,11 @@ svg.g-transition--linear polygon {
 
 /* Color Dark Blue */
 .g-color-darkblue {
-  color: #009 !important;
+  color: #041422 !important;
 }
 
 .g-color-darkblue--hover:hover {
-  color: #009 !important;
+  color: #041422 !important;
 }
 
 /* Color Indigo */
@@ -6774,11 +6774,11 @@ svg.g-transition--linear polygon {
 
 /* Color Yellow */
 .g-color-yellow {
-  color: #ebc71d !important;
+  color: #F7CD46 !important;
 }
 
 .g-color-yellow--hover:hover {
-  color: #ebc71d !important;
+  color: #F7CD46 !important;
 }
 
 /* Color Aqua */
